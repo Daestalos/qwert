@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+ <!-- Подключаем CSS слайдера -->
+ <link rel="stylesheet" href="/css/simple-adaptive-slider.css">
+ <!-- Подключаем JS слайдера -->
+ <script defer src="/js/simple-adaptive-slider.js"></script>
+ <script>
+   document.addEventListener('DOMContentLoaded', function () {
+     // инициализация слайдера
+     var slider = new SimpleAdaptiveSlider('.slider', {
+       autoplay: true,
+       interval: 10000,
+     });
+   });
+ </script>
+
+
+
+</head>
+
+<body>
+    <header class="Header">
+        <div class="Header__Content__Left"></div>
+        <div class="Header__Content" id="HeaderNav">
+            <a href="History">История</a>
+            <a href="Portfolio">Портфолио</a>
+            <a href="Services">Услуги</a>
+            <a href="Contacts">Контакты</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </a>
+        </div>
+    </header>
+    <main class="Content">
+        <div class="Slider">
+            <div class="Slider__Section">
+                <div class="Slider__Content">
+                    <div class="Slider__Content_Left"></div>
+                    <div class="Slider__Content_Right">
+                        <div class="Slider__Content__H">
+                            <h1>Дизайн</h1>
+                            <h2>С ХАРАКТЕРОМ</h2>
+                        </div>
+                        <div class="Slider__Content__Text">
+                            <span>Исскуство в мелочах, которые мы создаем</span>
+                        </div>
+                        <div class="Slider__Content__Button">
+                            <button>Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="Slider__Clear"></div>
+                <div class="Slider__Right"></div>
+            </div>
+            <div class="Slider__Bottom"></div>
+        </div>
+        <div class="Services">
+            <div class="Logo">
+                <h3>Услуги</h3>
+            </div>
+            <div class="Services__Section">
+                <div class="Services__Content">
+                    <div>
+                        <img src="img/interior-1753743_1920.png">
+                        <h4> Архитектурный дизайн</h4>
+                        <a>Это деятельность, связанная с руководством и проектированием процесса направленного на сооружение зданий, отвечающих духовным и утилитарным потребностям человека.</a>
+                        <h5>Узнать больше</h5>
+                    </div>
+                    <div>
+                        <img src="img/kitchen-4043098_1920.png">
+                        <h4> Дизайн интерьера</h4>
+                        <a>Дизайн интерьера - отрасль дизайна, направленная на интерьер помещений с целью обеспечить удобство и эстетически приятное взаимодействие среды с людьми. Интерьерный дизайн сочетает в себе художественный.</a>
+                        <h5>Узнать больше</h5>
+
+                    </div>
+                    <div>
+                        <img src="img/roberto-nickson-tleCJiDOri0-unsplash.png">
+                        <h4> Дизайн освещения</h4>
+                        <a>Освещение в квартире определяет настроение людей, которые бдуут там жить, функциональность комнаты, помогает сделать интерьер уютнее и даже визуально увеличивает пространство.</a>
+                        <h5>Узнать больше</h5>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="History">
+            <div class="History__Sidebar"> </div>
+            <div class="History__Section">
+                <div class="History__Header">
+                    <h1>Наша история</h1>
+                </div>
+                <div class="History__Content">
+                    <div class="History__Content__H3">
+                        <h3>Кто мы такие</h3>
+                    </div>
+                    <div class="History__Content__Span">
+                        <span>
+                            Мода на создание и популяризацию истории бренда напрямую связана с естественным процессом
+                            брендирования отдельных продуктовых рынков и последующим за этим обезличиванием брендов.
+                            Потребители совершают покупки, основываясь на своем эмоциональном
+                            отношении к продукту (бренду).
+                            Рассказывая потенциальному клиенту интересные подробности из
+                            истории бренда, вы включаете его в особый круг прикоснувшихся к легенде. В целом история бренда
+                            представляет собой смесь из реальных событий, происходивших с брендом за время его существования, и
+                            легенды бренда — вымышленной истории,придающих ему эмоциональную окраску.</span>
+
+
+                    </div>
+                </div>
+                <div class="History__Bottom">
+                    <h5>Узнать больше</h5>
+                </div>
+            </div>
+            <div class="History__Image">
+                <img src="img/minh-pham-OtXADkUh3-I-unsplash.png">
+            </div>
+
+        </div>
+        <div class="Portfolio">
+            <div class="Logo">
+                <h3>Портфолио</h3>
+            </div>
+            <!-- Normal view -->
+
+            <div class="Portfolio__Section">
+                <div class="Portfolio__Section__Image">
+                    <img class="Portfolio__Image__One" src="img\random-sky-ItIm1CKW8v8-unsplash.png">
+                    <img class="Portfolio__Image__Two" src="img\jean-philippe-delberghe-MmanXAs1sKw-unsplash.jpg">
+                </div>
+                <div class="Portfolio__Section__Image">
+                    <img class="Portfolio__Image__Two" src="img\bathroom.png">
+                    <img class="Portfolio__Image__One" src="img\jean-philippe-delberghe-Ba2mCCtXG2o-unsplash.png">
+                </div>
+                <div class="Portfolio__Section__Image">
+                    <img class="Portfolio__Image__One" src="img\jean-philippe-delberghe-Gdufctyvzjo-unsplash.jpg">
+                    <img class="Portfolio__Image__Two" src="img\interior-2685521_1920.png">
+                </div>
+
+                <!-- Slider -->
+                <div class="slider">
+                    <div class="slider__wrapper">
+                      <div class="slider__items">
+                        <div class="slider__item">
+                          <img class="img-fluid" src="img\random-sky-ItIm1CKW8v8-unsplash.png" alt="..." width="800" height="400" loading="lazy">
+                        </div>
+                        <div class="slider__item">
+                          <img class="img-fluid" src="img\jean-philippe-delberghe-MmanXAs1sKw-unsplash.jpg" alt="..." width="800" height="400" loading="lazy">
+                        </div>
+                        <div class="slider__item">
+                          <img class="img-fluid" src="img\bathroom.png" alt="..." width="800" height="400" loading="lazy">
+                        </div>
+                        <div class="slider__item">
+                          <img class="img-fluid" src="img\jean-philippe-delberghe-Ba2mCCtXG2o-unsplash.png" alt="..." width="800" height="400" loading="lazy">
+                        </div>
+                        <div class="slider__item">
+                            <img class="img-fluid" src="img\jean-philippe-delberghe-Gdufctyvzjo-unsplash.jpg" alt="..." width="800" height="400" loading="lazy">
+                          </div>
+                          <div class="slider__item">
+                            <img class="img-fluid" src="img\interior-2685521_1920.png" alt="..." width="800" height="400" loading="lazy">
+                          </div>
+                      </div>
+                    </div>
+                    <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+                    <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+                  </div>
+            <div class="Portfolio__Button">
+                <button>Подробнее</button>
+            </div>
+        </div>
+
+        <div class="StructWork">
+            <div class="StructWork__Image">
+                <img src="img\sarah-dorweiler-7tFlUFGa7Dk-unsplash.png">
+            </div>
+            <div class="StructWork_Sections">
+
+                <div class="StructWork__SectionOne">
+                    <div class="StructWork__SectionOne__H">
+                        <a>Структура работы</a>
+                    </div>
+                    <div class="StructWork__SectionOne__Text">
+                        <span>Структура каждого проекта</span><br>
+                        <span>уникальна и состоит из</span><br>
+                        <span>множества этапов</span><br>
+                    </div>
+                    <div class="StructWork__SectionOne__Button">
+                        <button>Получить <br>консультацию</button>
+                    </div>
+                </div>
+                <div class="StructWork__SectionTwo">
+                    <div class="StructWork__SectionTwo__Left">
+                        <div class="StructWork__SectionTwo_Stage__One">
+                            <span class="StructWork__Span">1</span>
+
+                        </div>
+                        <div class="StructWork__SectionTwo_Stage__Two">
+                            <span class="StructWork__Span">2</span>
+                        </div>
+                        <div class="StructWork__SectionTwo_Stag__Tree">
+                            <span class="StructWork__Span">3</span>
+                        </div>
+                    </div>
+                    <div class="StructWork__SectionTwo__Right">
+                        <div class="StructWork__SectionTwo_Stage__One">
+                            <h2 class="StructWork__h2">Этап 1</h2><br>
+                            <span class="StructWork__Span__Text">Выявление ваших потребностей и <br> </span>
+                            <span class="StructWork__Span__Text"> Желаний, знакомство с командой, <br> </span>
+                            <span class="StructWork__Span__Text"> Составление технологического задания </span>
+                        </div>
+                        <div class="StructWork__SectionTwo_Stage__Two">
+                            <h2 class="StructWork__h2">Этап 2</h2><br>
+                            <span class="StructWork__Span__Text">Работа с проектировщиками и<br> </span>
+                            <span class="StructWork__Span__Text">дизайнером. Подбор материалов <br> </span>
+                            <span class="StructWork__Span__Text">мебели и элементов интерьера</span>
+                        </div>
+                        <div class="StructWork__SectionTwo_Stag__Tree">
+                            <h2 class="StructWork__h2">Этап 3</h2><br>
+                            <span class="StructWork__Span__Text">Визуализация объекта и передача его <br> </span>
+                            <span class="StructWork__Span__Text">Строительной бригаде. Контроль <br> </span>
+                            <span class="StructWork__Span__Text">Качества выполнения работ. </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Question"></div>
+        <div class="Feedback">
+            <div class="Feedback__Section">
+                <div class="Feedback__Text">
+                    
+                    <div class="Feedback__Logo">
+                        <h3>Обратная связь</h3>
+                    </div>
+                    <div class="Feedback__Text__Row">
+                    <label>Ваше имя:</label>
+                    <input id="name" name="name" placeholder="Ваше имя" type="text">
+                    </div>
+                    <div class="Feedback__Text__Row">
+                    <label>E-mail Адрес:</label>
+                    <input id="email" name="email" placeholder="Ваша почта" type="text">
+                    </div>
+                    <div class="Feedback__Text__Row">
+                    <label>Тема:</label>
+                    <input id="subject" name="subject" placeholder="Тема письма" type="text">
+                    </div>
+                    <div class="Feedback__Text__Row">
+                    <label>Сообщение:</label>
+                    <textarea id="message" name="message" placeholder="Сообщение" type="text"></textarea>
+                    </div>
+                    <div class="Feedback__Text__Button">
+                        <button>Отправить!</button>
+                    </div>
+                </div>
+                <div class="Feedback__Image">
+                    <img src="img\обратная связь фон.png">
+                </div>
+          
+        </div>
+
+        </div>
+    </main>
+
+
+    <footer class="footer__distributed">
+        <div class="footer__left">
+            
+            <p class="footer__links">
+                <a href="#">Домой</a>
+                |
+                <a href="#">Услуги</a>
+                |
+                <a href="#">О Нас</a>
+                |
+                <a href="#">Обратная связь</a>
+            </p>
+
+            <p class="footer__company__name">© 2021</p>
+        </div>
+
+        <div class="footer__center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                  <p><span>Беларусь, Могилев</span>
+                    </p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+375291079556</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:alex.bordyug.daes@gmail.com">alex.bordyug.daes@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer__right">
+            <p class="footer__company__about">
+                <span>Дизайн с характером</span>
+                Исскуство в мелочах, которые мы создаем</p>
+            <div class="footer__icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
